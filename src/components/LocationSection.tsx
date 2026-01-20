@@ -34,7 +34,7 @@ export const LocationSection = () => {
         once: true,
         margin: "-100px"
       }}>
-          <img alt="Map of Europe highlighting Switzerland" className="w-full" src="/lovable-uploads/24d59a3b-9b85-4278-a3b0-753e4cfbc7df.jpg" />
+          <img alt="Map of Europe highlighting Switzerland" className="w-full" src="/lovable-uploads/7360084f-df91-4779-b393-8cf93f0a951e.jpg" />
         </motion.div>
 
         <motion.p className="text-center text-muted-foreground mt-6 max-w-2xl mx-auto text-base" initial={{
