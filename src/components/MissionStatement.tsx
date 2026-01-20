@@ -92,10 +92,10 @@ export const MissionStatement = () => {
           }}>
                 {"link" in item && item.link ? <Link to={item.link} className="font-display font-semibold text-primary mb-3 block hover:underline text-xl text-center">
                     {item.title}
-                  </Link> : <h3 className="font-display font-semibold text-primary mb-3 text-xl">
+                  </Link> : <h3 className="font-display font-semibold text-primary mb-3 text-xl text-center">
                     {item.title}
                   </h3>}
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <p className="text-muted-foreground text-sm leading-relaxed text-justify">
                   {item.description}
                 </p>
               </motion.div>)}
