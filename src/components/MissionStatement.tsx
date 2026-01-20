@@ -54,7 +54,7 @@ export const MissionStatement = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground mb-6 leading-tight font-sans">
               Reversing Aging Through Chemical Precision.
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl font-sans">RevɘЯ is a biotechnology company developing the next generation of rejuvenation therapies. By pioneering small-molecule chemical reprogramming, we are targeting the root causes of biological decline to radically extend the healthspan of humans and their companions.</p>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl font-sans text-justify">RevɘЯ is a biotechnology company developing the next generation of rejuvenation therapies. By pioneering small-molecule chemical reprogramming, we are targeting the root causes of biological decline to radically extend the healthspan of humans and their companions.</p>
           </motion.div>
         </div>
 
@@ -90,7 +90,7 @@ export const MissionStatement = () => {
             once: true,
             margin: "-50px"
           }}>
-                {"link" in item && item.link ? <Link to={item.link} className="font-display font-semibold text-primary mb-3 block hover:underline text-xl">
+                {"link" in item && item.link ? <Link to={item.link} className="font-display font-semibold text-primary mb-3 block hover:underline text-xl text-center">
                     {item.title}
                   </Link> : <h3 className="font-display font-semibold text-primary mb-3 text-xl">
                     {item.title}
