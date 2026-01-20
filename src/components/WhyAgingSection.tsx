@@ -59,7 +59,7 @@ export const WhyAgingSection = () => {
               once: true,
               margin: "-50px"
             }}>
-                <span className="text-3xl font-bold">+41 years</span>
+                <span className="text-3xl font-bold text-primary">+41 years</span>
                 <p className="text-muted-foreground">of life expectancy gained since 1900. However...</p>
               </motion.div>
 
@@ -77,7 +77,7 @@ export const WhyAgingSection = () => {
                 once: true,
                 margin: "-50px"
               }}>
-                  <span className="text-xl font-bold text-gradient block mb-2">50% of spending</span>
+                  <span className="text-xl font-bold text-primary block mb-2">50% of spending</span>
                   <p className="text-muted-foreground leading-relaxed text-sm">
                     Age-related care will consume half of all healthcare budgets by 2030.
                   </p>
@@ -95,7 +95,7 @@ export const WhyAgingSection = () => {
                 once: true,
                 margin: "-50px"
               }}>
-                  <span className="text-xl font-bold text-gradient block mb-2">93% prevalence</span>
+                  <span className="text-xl font-bold text-primary block mb-2">93% prevalence</span>
                   <p className="text-muted-foreground leading-relaxed text-sm">
                     Nearly all seniors live with at least one chronic disease.
                   </p>
