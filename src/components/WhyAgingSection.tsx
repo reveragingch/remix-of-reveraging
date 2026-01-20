@@ -59,7 +59,7 @@ export const WhyAgingSection = () => {
               once: true,
               margin: "-50px"
             }}>
-                <span className="text-3xl font-bold text-primary">+41 years</span>
+                <span className="font-bold text-primary text-xl">+41 years</span>
                 <p className="text-muted-foreground">of life expectancy gained since 1900. However...</p>
               </motion.div>
 
