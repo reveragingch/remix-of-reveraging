@@ -31,7 +31,7 @@ export const Footer = () => {
 
           {/* Copyright */}
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Rever. All rights reserved.
+            © {new Date().getFullYear()} RevɘЯ. All rights reserved.
           </p>
         </div>
       </div>
