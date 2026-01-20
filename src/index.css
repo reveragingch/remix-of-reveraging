@@ -12,7 +12,7 @@
   :root {
     /* Warm ivory/cream background palette */
     --background: 
-      0 0% 98%;
+      0 0% 96%;
     --foreground: 
       0 0% 9%;
 
@@ -40,7 +40,7 @@
 
     /* Soft muted tones */
     --muted: 
-      0 0% 63%;
+      0 0% 98%;
     --muted-foreground: 
       0 0% 9%;
 
