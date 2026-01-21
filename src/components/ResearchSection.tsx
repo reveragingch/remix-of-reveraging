@@ -48,7 +48,7 @@ export const ResearchSection = () => {
   return <section id="research" className="py-12 bg-secondary">
       <div className="section-container">
         <div className="text-center mb-8">
-          <h2 className="section-title">Our Expertise in Reprogramming</h2>
+          <h2 className="section-title text-2xl">Our Expertise in Reprogramming</h2>
           <p className="section-subtitle mx-auto">
             Our team has published groundbreaking research in leading scientific journals
           </p>
