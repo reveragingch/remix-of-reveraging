@@ -2,11 +2,12 @@ import { Linkedin } from "lucide-react";
 import logoBlack from "@/assets/logo_black.png";
 import { FooterContact } from "@/components/FooterContact";
 export const Footer = () => {
-  return <footer id="contact" className="relative overflow-hidden">
+  return (
+    <footer id="contact" className="relative overflow-hidden">
       {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/15 via-accent/20 to-primary/10" />
       <div className="absolute inset-0 bg-gradient-to-t from-accent/10 to-transparent" />
-      
+
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
       <div className="absolute -top-24 -right-24 w-48 h-48 bg-primary/10 rounded-full blur-3xl" />
@@ -24,16 +25,20 @@ export const Footer = () => {
           <img alt="Rever" className="h-10" src="/lovable-uploads/af36bf99-a65b-4d48-a5fe-c6f8153e24ba.png" />
 
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/company/110441965" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+          <a
+            href="https://www.linkedin.com/company/110441965"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+          >
             <Linkedin size={20} />
             <span className="text-sm">Follow us on LinkedIn</span>
           </a>
 
           {/* Copyright */}
-          <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} RevɘЯ. All rights reserved.
-          </p>
+          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} rever. All rights reserved.</p>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
