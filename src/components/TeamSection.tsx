@@ -119,7 +119,7 @@ export const TeamSection = () => {
   return <section id="team" className="pt-32 pb-16 lg:pt-40 section-elegant">
       <div className="section-container">
         <div className="text-center mb-12">
-          <h2 className="section-title text-2xl">The Team</h2>
+          <h2 className="section-title text-3xl">The Team</h2>
           <p className="section-subtitle mx-auto">
             World-class scientists and entrepreneurs dedicated to reversing aging
           </p>
@@ -130,7 +130,7 @@ export const TeamSection = () => {
         </div>
 
         <div className="text-center mb-10">
-          <h3 className="font-semibold text-foreground text-xl">Advisory Board</h3>
+          <h3 className="font-semibold text-foreground text-2xl">Advisory Board</h3>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -80,7 +80,7 @@ export const FooterContact = () => {
     }
   };
   return <div className="w-full max-w-md mx-auto">
-      <h3 className="font-semibold text-foreground mb-4 text-center text-xl">
+      <h3 className="font-semibold text-foreground mb-4 text-center text-2xl">
         Get in Touch
       </h3>
       <form onSubmit={handleSubmit} className="space-y-3">
