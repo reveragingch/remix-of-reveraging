@@ -34,7 +34,7 @@ export const MissionStatement = () => {
         }} viewport={{
           once: true
         }}>
-            <img alt="Rever" className="h-32 lg:h-48 xl:h-56 drop-shadow-sm" src="/lovable-uploads/7b8fa0c1-a414-4430-8b60-117815930618.png" />
+            <img alt="Rever" className="h-32 lg:h-48 xl:h-56 drop-shadow-sm" src="/lovable-uploads/83aa1376-c270-443e-a8d5-d49ce3f1ec2e.png" />
           </motion.div>
 
           {/* Text on the right */}
