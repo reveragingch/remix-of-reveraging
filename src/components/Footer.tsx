@@ -21,7 +21,7 @@ export const Footer = () => {
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
 
           {/* Logo */}
-          <img alt="Rever" className="h-10" src="/lovable-uploads/f07d2adc-ab2f-44cc-85ff-9e8e82c71250.png" />
+          <img alt="Rever" className="h-10" src="/lovable-uploads/af36bf99-a65b-4d48-a5fe-c6f8153e24ba.png" />
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/company/110441965" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
