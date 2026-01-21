@@ -28,7 +28,7 @@ export const Header = () => {
       <div className="relative section-container">
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <Link to="/" className="flex items-center">
-            <img alt="Rever" className="h-8 lg:h-10" src="/lovable-uploads/5a4d3f63-ef80-4ea1-a2de-03ce570acd8e.png" />
+            <img alt="Rever" className="h-8 lg:h-10" src="/lovable-uploads/660005fd-608a-4ae8-bbcc-b65e847ee7ad.png" />
           </Link>
 
           {/* Desktop Navigation */}
