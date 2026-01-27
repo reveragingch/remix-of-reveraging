@@ -21,7 +21,7 @@ const articles = [
     slug: "how-studying-cats-and-dogs-could-shed-light-on-human-aging",
     title: "How studying cats and dogs could shed light on human aging",
     date: "16.01.2026",
-    category: "Human aging",
+    category: "Human Aging",
     excerpt:
       "Cats and dogs do not age in controlled laboratory environments. They age in homes, with real diets, real stress, real infections, real routines, and real love. That makes their aging deeply relatable, but also scientifically valuable.",
   },
@@ -76,6 +76,7 @@ const Blog = () => {
 
   const categories = useMemo(() => {
     const cats = new Set(articles.map((a) => a.category));
+    cats.add("Scientific Publication");
     return Array.from(cats);
   }, []);
 
