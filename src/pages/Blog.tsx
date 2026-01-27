@@ -1,7 +1,9 @@
+import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArrowRight } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 import partialReprogImg from "@/assets/partial_reprog.png";
 import petsAutumnImg from "@/assets/pets-autumn.png";
 import petAgingSignsImg from "@/assets/pet-aging-signs.png";
@@ -70,16 +72,52 @@ const articles = [
 ];
 
 const Blog = () => {
+  const [activeCategories, setActiveCategories] = useState<Set<string>>(new Set());
+
+  const categories = useMemo(() => {
+    const cats = new Set(articles.map((a) => a.category));
+    return Array.from(cats);
+  }, []);
+
+  const toggleCategory = (category: string) => {
+    setActiveCategories((prev) => {
+      const next = new Set(prev);
+      if (next.has(category)) {
+        next.delete(category);
+      } else {
+        next.add(category);
+      }
+      return next;
+    });
+  };
+
+  const filteredArticles = useMemo(() => {
+    if (activeCategories.size === 0) return articles;
+    return articles.filter((a) => activeCategories.has(a.category));
+  }, [activeCategories]);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <main className="pt-24 pb-16">
         <div className="section-container max-w-4xl mx-auto">
-          <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-12">
+          <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Blog
           </h1>
+          <div className="flex flex-wrap gap-2 mb-10">
+            {categories.map((category) => (
+              <Badge
+                key={category}
+                variant={activeCategories.has(category) ? "default" : "outline"}
+                className="cursor-pointer select-none transition-colors"
+                onClick={() => toggleCategory(category)}
+              >
+                {category}
+              </Badge>
+            ))}
+          </div>
           <div className="space-y-8">
-            {articles.map((article) => (
+            {filteredArticles.map((article) => (
               <Link
                 key={article.slug}
                 to={`/blog/${article.slug}`}
