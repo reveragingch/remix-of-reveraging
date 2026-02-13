@@ -390,7 +390,107 @@ const articles: Record<string, {
           </p>
         </section>
       </>
-  }
+  },
+  "partial-reprogramming-ocampo-2016": {
+    date: "13.02.2026",
+    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
+    content: <>
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Full reprogramming vs partial reprogramming
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Classical "full" reprogramming uses the expression of four genes (the Yamanaka factors; 4F-OSKM) to push adult cells all the way back toward a specific undifferentiated state: a pluripotent state. When fully reprogrammed, identity is erased along with the resetting of most aging-associated features. However, this powerful process comes with a clear tradeoff as full loss of identity leads to a risk of tumorigenesis when the process is pushed too far. The key conceptual leap behind partial reprogramming is that there is an intermediary state of interest before reaching full pluripotency. The "reset without erasure" idea is what opened the door to <GlossaryTerm {...glossary.rejuvenation}>rejuvenation</GlossaryTerm> as a therapeutic direction for aging.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            A critical idea: make reprogramming a dial, not a switch
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Ocampo and colleagues tested partial reprogramming in vivo by transiently expressing the Yamanaka factors in mice. Early attempts with stronger or continuous induction were not viable, with significant weight loss and high mortality within days, which immediately taught the first practical lesson of the field: control matters as much as the factors themselves. They then established the now-famous cyclic schedule, 2 days of gene expression followed by 5 days off, which avoided the acute toxicity. In mice, this cyclic protocol could be run for many cycles without weight loss or mortality, and they reported no sign of dysplasia, cancer, or induction of pluripotency across organs they examined.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Aging hallmarks improvement
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            The study also measured concrete <GlossaryTerm {...glossary.agingHallmarks}>hallmarks of aging</GlossaryTerm>. In late-passage mouse fibroblasts, short OSKM induction reduced γH2AX foci (DNA damage marker), downregulated several stress and senescence-associated genes (including p53-pathway stress response genes, MMP13, and IL-6), reduced mitochondrial ROS, and restored the heterochromatin mark H3K9me3. They then repeated key readouts in a human secondary OSKM system and again observed the age-associated improvements. Together, these readouts supported a provocative conclusion that helped reshape the field: reprogramming can drive coordinated, multi-hallmark reversal signals, rather than a marginal shift in one pathway.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Lifespan in a progeroid model, and regeneration in older wild-type mice
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            In a premature aging mouse model, they reported a dramatic increase in median and maximal <GlossaryTerm {...glossary.lifespan}>lifespan</GlossaryTerm> under the 2-days-on/5-days-off schedule. A later synthesis that tabulates the lifespan data from this paper reported 33% median and 18% maximum lifespan extension in homozygous LAKI 4F mice under that cyclic regimen, among the strongest lifespan extensions ever reported in mice. In 12-month-old 4F mice, three weeks of cyclic induction improved multiple tissue-relevant <GlossaryTerm {...glossary.healthspan}>healthspan</GlossaryTerm> outcomes that link partial reprogramming to improved repair capacity in older animals. Using cyclic induction of OSKM in mice, partial reprogramming was thus capable of restoring aging signatures and young phenotypes without resetting <GlossaryTerm {...glossary.cellIdentity}>cell identity</GlossaryTerm>.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            From rejuvenation to translation
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Two insights from this work keep showing up across the reprogramming literature. First, partial reprogramming can improve aging phenotypes while preserving tissue identity if it is tightly controlled. Second, dosing and timing are not a detail, and finding the correct <GlossaryTerm {...glossary.regimen}>regimen</GlossaryTerm> can capture benefit without crossing into full dedifferentiation. This 2016 study relied on genetic control of OSKM expression, which is powerful for proof-of-concept but hard to translate broadly because delivery, reversibility, and long-term safety become central constraints. That is why the field has been motivated to find new ways to recreate the same reprogramming benefits, without the use of heavy genetic manipulations.
+          </p>
+        </section>
+      </>
+  },
+  "chemical-reprogramming-schoenfeldt-2025": {
+    date: "13.02.2026",
+    title: "Chemical reprogramming for aging: towards an optimized cocktail (Schoenfeldt et al., 2025)",
+    content: <>
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Why we cared about making reprogramming with molecules and not genes
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Full cellular reprogramming can reset <GlossaryTerm {...glossary.cellState}>cell state</GlossaryTerm>, but it also erases identity, which is not what you want in a therapy. Partial reprogramming emerged as the safer idea: capture the "reset" without pushing cells all the way back to pluripotency. The catch is delivery, most early work relied on genetic factors delivered as gene therapies, which complicates control, safety, and repeat dosing. Our goal in this paper was to show that you can access reprogramming-like <GlossaryTerm {...glossary.rejuvenation}>rejuvenation</GlossaryTerm> with small molecules.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            A chemical cocktail that can drive full reprogramming
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            We started with a seven-compound cocktail (7c) previously used in chemical production of pluripotent cells, then applied it transiently to aged human fibroblasts. The core question was simple: does short-term <GlossaryTerm {...glossary.chemicalReprogramming}>chemical reprogramming</GlossaryTerm> move aging biology towards a younger state the same way genetic reprogramming can? In the paper we show that chemical-induced partial reprogramming can improve key drivers of aging including genomic instability and epigenetic alterations in aged human cells. Mechanistically, we see a shift toward a younger state while preserving <GlossaryTerm {...glossary.cellIdentity}>cell identity</GlossaryTerm>, showing that a small molecule approach can capture reprogramming-like rejuvenation without pushing cells into full dedifferentiation, which is a key <GlossaryTerm {...glossary.translation}>translational</GlossaryTerm> advantage over genetic approaches.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            The key step: shrinking 7 molecules down to 2, without losing the effect
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            A big part of translation is practicality. Seven molecules is informative, but two molecules is the kind of intervention you can seriously optimize into a therapy. We therefore searched for a reduced combination and reported an optimized combination of two reprogramming molecules sufficient to induce the amelioration of additional aging phenotypes including cellular senescence and oxidative stress. This is the conceptual jump that matters for chemical reprogramming as a therapeutic class: the intervention becomes a tunable <GlossaryTerm {...glossary.regimen}>regimen</GlossaryTerm> problem, not a gene delivery problem.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Proof it matters in vivo: lifespan and healthspan with chemical reprogramming
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            The work then asks the hard question: does chemical reprogramming do anything meaningful in vivo? In C. elegans, the reduced two-chemical cocktail (2c) improves stress and health measures and produces a clear and considerable <GlossaryTerm {...glossary.lifespan}>lifespan</GlossaryTerm> extension. We notably reported that 2c treatment with chemical-induced partial reprogramming extended median lifespan by over 42%. That kind of whole-organism result is why reprogramming is widely viewed as a front-runner: it is the only intervention that can target all drivers of aging at once in a coordinated way, rather than targeting a single downstream pathway.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Why this paper is a blueprint for rever
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            The conclusion is not that we are done, it is that we now have a new revolutionary approach on reprogramming for aging. This first description of chemical partial reprogramming opens a path towards future <GlossaryTerm {...glossary.translation}>translational</GlossaryTerm> applications while avoiding the hurdles of gene therapy. For rever, this is the foundation: build around <GlossaryTerm {...glossary.chemicalReprogramming}>chemical reprogramming</GlossaryTerm> as a new class of anti-aging therapeutics that targets aging at its core and can deliver never seen before <GlossaryTerm {...glossary.lifespan}>lifespan</GlossaryTerm> and <GlossaryTerm {...glossary.healthspan}>healthspan</GlossaryTerm> extensions.
+          </p>
+        </section>
+      </>
+  },
 };
 const BlogArticle = () => {
   const {

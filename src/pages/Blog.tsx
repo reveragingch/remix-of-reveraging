@@ -4,11 +4,35 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
 import partialReprogImg from "@/assets/partial_reprog.png";
 import petsAutumnImg from "@/assets/pets-autumn.png";
 import petAgingSignsImg from "@/assets/pet-aging-signs.png";
+import schoenImg from "@/assets/schoen.jpg";
+import parrasImg from "@/assets/parrasetal.jpg";
 
 const articles = [
+  {
+    slug: "partial-reprogramming-ocampo-2016",
+    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
+    date: "13.02.2026",
+    category: "In Depth",
+    excerpt:
+      "The key conceptual leap behind partial reprogramming is that there is an intermediary state of interest before reaching full pluripotency. The \"reset without erasure\" idea is what opened the door to rejuvenation as a therapeutic direction for aging.",
+    thumbnail: parrasImg,
+    inDepth: true,
+  },
+  {
+    slug: "chemical-reprogramming-schoenfeldt-2025",
+    title: "Chemical reprogramming for aging: towards an optimized cocktail (Schoenfeldt et al., 2025)",
+    date: "13.02.2026",
+    category: "In Depth",
+    excerpt:
+      "This first description of chemical partial reprogramming opens a path towards future translational applications while avoiding the hurdles of gene therapy. For rever, this is the foundation: build around chemical reprogramming as a new class of anti-aging therapeutics.",
+    thumbnail: schoenImg,
+    inDepth: true,
+  },
   {
     slug: "reprogramming-done-the-right-way",
     title: "Reprogramming done the right way",
@@ -73,9 +97,12 @@ const articles = [
 
 const Blog = () => {
   const [activeCategories, setActiveCategories] = useState<Set<string>>(new Set());
+  const [showInDepth, setShowInDepth] = useState(false);
 
   const categories = useMemo(() => {
-    const cats = new Set(articles.map((a) => a.category));
+    const cats = new Set(
+      articles.filter((a) => !a.inDepth).map((a) => a.category)
+    );
     cats.add("Scientific Publication");
     return Array.from(cats);
   }, []);
@@ -93,9 +120,15 @@ const Blog = () => {
   };
 
   const filteredArticles = useMemo(() => {
-    if (activeCategories.size === 0) return articles;
-    return articles.filter((a) => activeCategories.has(a.category));
-  }, [activeCategories]);
+    let result = articles.filter((a) => {
+      if (a.inDepth) return showInDepth;
+      return true;
+    });
+    if (activeCategories.size > 0) {
+      result = result.filter((a) => activeCategories.has(a.category));
+    }
+    return result;
+  }, [activeCategories, showInDepth]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -105,7 +138,7 @@ const Blog = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Blog
           </h1>
-          <div className="flex flex-wrap gap-2 mb-10">
+          <div className="flex flex-wrap items-center gap-2 mb-10">
             {categories.map((category) => (
               <Badge
                 key={category}
@@ -116,6 +149,16 @@ const Blog = () => {
                 {category}
               </Badge>
             ))}
+            <div className="flex items-center gap-2 ml-2">
+              <Switch
+                id="in-depth-toggle"
+                checked={showInDepth}
+                onCheckedChange={setShowInDepth}
+              />
+              <Label htmlFor="in-depth-toggle" className="cursor-pointer text-sm font-medium select-none">
+                In Depth
+              </Label>
+            </div>
           </div>
           <div className="space-y-8">
             {filteredArticles.map((article) => (
