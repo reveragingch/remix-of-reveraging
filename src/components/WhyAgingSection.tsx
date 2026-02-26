@@ -118,10 +118,10 @@ export const WhyAgingSection = () => {
           margin: "-100px"
         }}>
             <div className="space-y-4 order-2 md:order-1">
-              <p className="text-muted-foreground leading-relaxed text-base text-justify">
-                Accordingly, aging is the primary risk factor for most chronic 
-                diseases in humans, from cancer to Alzheimer's.
-              </p>
+              <p className="text-muted-foreground leading-relaxed text-base text-justify">Accordingly, aging is the primary risk factor for most chronic diseases, not only in humans, but also in pets.
+
+
+            </p>
               <p className="text-muted-foreground leading-relaxed text-base text-justify">
                 Without addressing the root cause, aging, treating one disease only delays the onset of another. By extending healthspan, we can reduce disease burden, improve quality of life, and boost economic value across society.
               </p>
