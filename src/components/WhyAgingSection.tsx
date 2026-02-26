@@ -41,10 +41,10 @@ export const WhyAgingSection = () => {
             </div>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-base text-justify">
-                Over the past few decades, companion animal lifespans have risen sharply due to better nutrition, vaccines, and veterinary advances. Projections show senior pets (7+ years) will dominate ownership, mirroring human aging trends.
+                We have successfully extended the lives of our companions, but we have yet to master the quality of those extra years. Veterinary medicine has given us more time; now, we must give them more life.
               </p>
               
-              {/* +4-5 years stat */}
+              {/* +5 Golden Years stat */}
               <motion.div className="text-center" initial={{
               opacity: 0,
               scale: 0.9
@@ -57,8 +57,8 @@ export const WhyAgingSection = () => {
               once: true,
               margin: "-50px"
             }}>
-                <span className="font-bold text-primary text-xl">+4–5 years</span>
-                <p className="text-muted-foreground">Lifespan gains for dogs/cats since 1980; US dogs now average 11.8 years, cats 15+.</p>
+                <span className="font-bold text-primary text-xl">+5 Golden Years</span>
+                <p className="text-muted-foreground">The "Bonus" Decade. Since 1980, breakthroughs in nutrition and immunology have pushed average canine lifespans to 12 years and feline survival past 15. We have delayed death, but invited a silent epidemic of aging.</p>
               </motion.div>
 
               {/* Stats row */}
@@ -75,9 +75,9 @@ export const WhyAgingSection = () => {
                 once: true,
                 margin: "-50px"
               }}>
-                  <span className="text-xl font-bold text-primary block mb-2">52% of households</span>
+                  <span className="text-xl font-bold text-primary block mb-2">The Senior Majority (52%)</span>
                   <p className="text-muted-foreground leading-relaxed text-sm">
-                    Dog/cat owners have ≥1 senior pet (up from 42-46% in 2012).
+                    A Tipping Point. For the first time, over half of pet parents are now "caregivers" to senior companions—a 20% surge in just one decade. The focus has shifted permanently from prevention to chronic management.
                   </p>
                 </motion.div>
                 <motion.div className="card-glow p-4 text-center" initial={{
@@ -93,9 +93,9 @@ export const WhyAgingSection = () => {
                 once: true,
                 margin: "-50px"
               }}>
-                  <span className="text-xl font-bold text-primary block mb-2">80% prevalence</span>
+                  <span className="text-xl font-bold text-primary block mb-2">The 80% Threshold</span>
                   <p className="text-muted-foreground leading-relaxed text-sm">
-                    Most seniors develop chronic issues like arthritis (40-90%), kidney disease (30-80%), or cognitive decline.
+                    The Cost of Survival. Nearly 9 out of 10 seniors battle a "trio of burdens": the erosion of joints, the fading of kidneys, and the darkening of the mind. Aging remains the #1 risk factor for every heartbreak we face.
                   </p>
                 </motion.div>
               </div>
@@ -116,12 +116,8 @@ export const WhyAgingSection = () => {
           margin: "-100px"
         }}>
             <div className="space-y-4 order-2 md:order-1">
-              <p className="text-muted-foreground leading-relaxed text-base text-justify">Accordingly, aging is the primary risk factor for most chronic diseases, not only in humans, but also in pets.
-
-
-            </p>
               <p className="text-muted-foreground leading-relaxed text-base text-justify">
-                Without addressing the root cause, aging, treating one disease only delays the onset of another. By extending healthspan, we can reduce disease burden, improve quality of life, and boost economic value across society.
+                The Reality: Treating symptoms is merely patchwork. By targeting aging at its cellular root, we don't just add years to the clock—we extend the healthspan, ensuring those extra years are defined by vitality rather than suffering.
               </p>
             </div>
             <div className="aspect-square overflow-hidden rounded-full order-1 md:order-2">
