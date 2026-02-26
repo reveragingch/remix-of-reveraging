@@ -76,9 +76,9 @@ export const WhyAgingSection = () => {
                 margin: "-50px"
               }}>
                   <span className="text-xl font-bold text-primary block mb-2">The Senior Majority (52%)</span>
-                  <p className="text-muted-foreground leading-relaxed text-sm">
-                    A Tipping Point. For the first time, over half of pet parents are now "caregivers" to senior companions—a 20% surge in just one decade. The focus has shifted permanently from prevention to chronic management.
-                  </p>
+                  <p className="text-muted-foreground leading-relaxed text-sm">A Tipping Point. For the first time, over half of pet parents are now "caregivers" to senior companions—a 20% surge in just one decade.
+
+                </p>
                 </motion.div>
                 <motion.div className="card-glow p-4 text-center" initial={{
                 opacity: 0,
