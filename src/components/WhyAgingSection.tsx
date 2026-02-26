@@ -58,7 +58,7 @@ export const WhyAgingSection = () => {
               margin: "-50px"
             }}>
                 <span className="font-bold text-primary text-xl">+5 Golden Years</span>
-                <p className="text-muted-foreground">The "Bonus" Decade. Since 1980, breakthroughs in nutrition and immunology have pushed average canine lifespans to 12 years and feline survival past 15. We have delayed death, but invited a silent epidemic of aging.</p>
+                <p className="text-muted-foreground">Since 1980, breakthroughs in nutrition and immunology have pushed average canine lifespans to 12 years and feline survival past 15. We have delayed death, but invited a silent epidemic of aging.</p>
               </motion.div>
 
               {/* Stats row */}
