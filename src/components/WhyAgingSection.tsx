@@ -41,12 +41,10 @@ export const WhyAgingSection = () => {
             </div>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-base text-justify">
-                Over the past two centuries, life expectancy in Western countries has drastically increased, 
-                with projections indicating that more than one-fifth of the global population will be older 
-                than 60 years by the year 2050.
+                Over the past few decades, companion animal lifespans have risen sharply due to better nutrition, vaccines, and veterinary advances. Projections show senior pets (7+ years) will dominate ownership, mirroring human aging trends.
               </p>
               
-              {/* +41 years stat */}
+              {/* +4-5 years stat */}
               <motion.div className="text-center" initial={{
               opacity: 0,
               scale: 0.9
@@ -59,8 +57,8 @@ export const WhyAgingSection = () => {
               once: true,
               margin: "-50px"
             }}>
-                <span className="font-bold text-primary text-xl">+41 years</span>
-                <p className="text-muted-foreground">of life expectancy gained since 1900. However...</p>
+                <span className="font-bold text-primary text-xl">+4–5 years</span>
+                <p className="text-muted-foreground">Lifespan gains for dogs/cats since 1980; US dogs now average 11.8 years, cats 15+.</p>
               </motion.div>
 
               {/* Stats row */}
@@ -77,9 +75,9 @@ export const WhyAgingSection = () => {
                 once: true,
                 margin: "-50px"
               }}>
-                  <span className="text-xl font-bold text-primary block mb-2">50% of spending</span>
+                  <span className="text-xl font-bold text-primary block mb-2">52% of households</span>
                   <p className="text-muted-foreground leading-relaxed text-sm">
-                    Age-related care will consume half of all healthcare budgets by 2030.
+                    Dog/cat owners have ≥1 senior pet (up from 42-46% in 2012).
                   </p>
                 </motion.div>
                 <motion.div className="card-glow p-4 text-center" initial={{
@@ -95,9 +93,9 @@ export const WhyAgingSection = () => {
                 once: true,
                 margin: "-50px"
               }}>
-                  <span className="text-xl font-bold text-primary block mb-2">93% prevalence</span>
+                  <span className="text-xl font-bold text-primary block mb-2">80% prevalence</span>
                   <p className="text-muted-foreground leading-relaxed text-sm">
-                    Nearly all seniors live with at least one chronic disease.
+                    Most seniors develop chronic issues like arthritis (40-90%), kidney disease (30-80%), or cognitive decline.
                   </p>
                 </motion.div>
               </div>
