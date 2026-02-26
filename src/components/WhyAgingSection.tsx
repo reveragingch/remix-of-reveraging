@@ -96,7 +96,7 @@ export const WhyAgingSection = () => {
                   <span className="text-xl font-bold text-primary block mb-2">The Cost of Survival
 
                 </span>
-                  <p className="text-muted-foreground leading-relaxed text-sm">Nearly 9 out of 10 seniors battle a "trio of burdens": the erosion of joints, the fading of kidneys, and the darkening of the mind. Aging remains the #1 risk factor for every heartbreak we face.
+                  <p className="text-muted-foreground leading-relaxed text-sm">Nearly 9 out of 10 seniors battle a "trio of burdens": the erosion of joints, the fading of kidneys, and the darkening of the mind.
 
                 </p>
                 </motion.div>
@@ -116,9 +116,9 @@ export const WhyAgingSection = () => {
           margin: "-100px"
         }}>
             <div className="space-y-4 order-2 md:order-1">
-              <p className="text-muted-foreground leading-relaxed text-base text-justify">
-                The Reality: Treating symptoms is merely patchwork. By targeting aging at its cellular root, we don't just add years to the clock—we extend the healthspan, ensuring those extra years are defined by vitality rather than suffering.
-              </p>
+              <p className="text-muted-foreground leading-relaxed text-base text-justify">Aging remains the #1 risk factor for every heartbreak we face. Treating symptoms is merely patchwork. By targeting aging at its cellular root, we don't just add years to the clock, we extend the healthspan, ensuring those extra years are defined by vitality rather than suffering.
+
+            </p>
             </div>
             <div className="aspect-square overflow-hidden rounded-full order-1 md:order-2">
               <img src={cozyHomeImg} alt="Quality of life - man relaxing at home with pets" className="w-full h-full object-cover object-center" />
