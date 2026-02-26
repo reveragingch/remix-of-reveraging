@@ -93,7 +93,9 @@ export const WhyAgingSection = () => {
                 once: true,
                 margin: "-50px"
               }}>
-                  <span className="text-xl font-bold text-primary block mb-2">The 80% Threshold</span>
+                  <span className="text-xl font-bold text-primary block mb-2">The Cost of Survival
+
+                </span>
                   <p className="text-muted-foreground leading-relaxed text-sm">
                     The Cost of Survival. Nearly 9 out of 10 seniors battle a "trio of burdens": the erosion of joints, the fading of kidneys, and the darkening of the mind. Aging remains the #1 risk factor for every heartbreak we face.
                   </p>
@@ -103,9 +105,7 @@ export const WhyAgingSection = () => {
           </motion.div>
 
           {/* Second row: Text left, image right */}
-          <motion.div className="grid md:grid-cols-2 gap-8 items-center" initial={{
-          opacity: 0,
-          x: 40
+          <motion.div className="grid md:grid-cols-2 gap-8 items-center" initial={{ opacity: 0, x: 40
         }} whileInView={{
           opacity: 1,
           x: 0
