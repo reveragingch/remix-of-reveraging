@@ -5,7 +5,7 @@ const missionItems = [
 {
   title: "Who We Are",
   description:
-  "We are a dedicated team of scientists and entrepreneurs united by a bold vision: to fundamentally change how we age. Using cutting-edge chemical reprogramming, we're developing therapies that target the mechanistic drivers of aging in both humans and pets.",
+  "We are a dedicated team of scientists and entrepreneurs united by a bold vision: to fundamentally change how we age. Using cutting-edge chemical reprogramming, we're developing therapies that target the mechanistic drivers of aging in our beloved pets.",
   link: "/team"
 },
 {
