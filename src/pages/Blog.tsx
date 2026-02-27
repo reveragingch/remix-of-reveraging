@@ -103,7 +103,6 @@ const Blog = () => {
     const cats = new Set(
       articles.filter((a) => !a.inDepth).map((a) => a.category)
     );
-    cats.add("Scientific Publication");
     return Array.from(cats);
   }, []);
 
