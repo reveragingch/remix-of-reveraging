@@ -40,9 +40,9 @@ export const WhyAgingSection = () => {
               <img src={beachSunsetImg} alt="Active aging - woman walking on beach at sunset" className="w-full h-full object-cover object-center" />
             </div>
             <div className="space-y-6">
-              <p className="text-muted-foreground leading-relaxed text-base text-justify">
-                We have successfully extended the lives of our companions, but we have yet to master the quality of those extra years. Veterinary medicine has given us more time; now, we must give them more life.
-              </p>
+              <p className="text-muted-foreground leading-relaxed text-base text-justify">Veterinary medicine has successfully extended the lives of our companions, but we have yet to master the quality of those extra years.
+
+            </p>
               
               {/* +5 Golden Years stat */}
               <motion.div className="text-center" initial={{
