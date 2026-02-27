@@ -16,7 +16,7 @@ const articles = [
   {
     slug: "partial-reprogramming-ocampo-2016",
     title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
-    date: "13.02.2026",
+    date: "27.02.2026",
     category: "In Depth",
     excerpt:
       "The key conceptual leap behind partial reprogramming is that there is an intermediary state of interest before reaching full pluripotency. The \"reset without erasure\" idea is what opened the door to rejuvenation as a therapeutic direction for aging.",
@@ -26,7 +26,7 @@ const articles = [
   {
     slug: "chemical-reprogramming-schoenfeldt-2025",
     title: "Chemical reprogramming for aging: towards an optimized cocktail (Schoenfeldt et al., 2025)",
-    date: "13.02.2026",
+    date: "14.02.2026",
     category: "In Depth",
     excerpt:
       "This first description of chemical partial reprogramming opens a path towards future translational applications while avoiding the hurdles of gene therapy. For rever, this is the foundation: build around chemical reprogramming as a new class of anti-aging therapeutics.",
@@ -36,7 +36,7 @@ const articles = [
   {
     slug: "reprogramming-done-the-right-way",
     title: "Reprogramming done the right way",
-    date: "16.01.2026",
+    date: "31.01.2026",
     category: "Science",
     excerpt:
       "Full reprogramming turns an adult cell back into a stem-cell-like state. Partial reprogramming aims for the sweet spot, resetting age-associated features in a cell while keeping the cell what it is.",
@@ -44,7 +44,7 @@ const articles = [
   {
     slug: "how-studying-cats-and-dogs-could-shed-light-on-human-aging",
     title: "How studying cats and dogs could shed light on human aging",
-    date: "16.01.2026",
+    date: "17.01.2026",
     category: "Human Aging",
     excerpt:
       "Cats and dogs do not age in controlled laboratory environments. They age in homes, with real diets, real stress, real infections, real routines, and real love. That makes their aging deeply relatable, but also scientifically valuable.",
@@ -52,7 +52,7 @@ const articles = [
   {
     slug: "chemical-reprogramming-making-rejuvenation-druggable",
     title: "Chemical reprogramming: making rejuvenation druggable",
-    date: "14.01.2026",
+    date: "03.01.2026",
     category: "Science",
     excerpt:
       "Aging is still the biggest driver of chronic disease risk, frailty, and loss of independence. The reason reprogramming created so much excitement is simple: it suggests that cellular age is not irreparable damage accumulation.",
@@ -61,7 +61,7 @@ const articles = [
   {
     slug: "companion-animals-longevity-that-matters-at-home",
     title: "Companion animals: longevity that matters at home",
-    date: "18.12.2025",
+    date: "20.12.2025",
     category: "Pet Aging",
     excerpt:
       "Dogs and cats are family. They shape our routines, fill our homes with presence, and give a kind of loyalty that is hard to put into words. Extending pet healthspan is not a luxury idea; it is a deeply practical goal for millions of families.",
@@ -70,7 +70,7 @@ const articles = [
   {
     slug: "aging-is-the-shared-root-cause",
     title: "Aging is the shared root cause, and why lifespan and healthspan both matter",
-    date: "07.12.2025",
+    date: "06.12.2025",
     category: "Science",
     excerpt:
       "Modern medicine has extended lifespan dramatically, which is a success story. The new challenge is that longer lives can come with more years lived with chronic disease, frailty, and loss of independence.",
