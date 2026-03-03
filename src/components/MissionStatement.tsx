@@ -11,7 +11,7 @@ const missionItems = [
 {
   title: "Our Commitment",
   description:
-  "We are committed to creating a world where healthy years are extended far beyond what's currently possible. We believe every companion deserves to live a long, and vibrantlife, free from the suffering of age-related chronic diseases."
+  "We are committed to creating a world where healthy years are extended far beyond what's currently possible. We believe every companion deserves to live a long, and vibrant life, free from the suffering of age-related chronic diseases."
 },
 {
   title: "How We Operate",
