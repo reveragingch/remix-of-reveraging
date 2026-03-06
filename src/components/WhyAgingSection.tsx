@@ -96,7 +96,7 @@ export const WhyAgingSection = () => {
                   <span className="text-xl font-bold text-primary block mb-2">The Cost of Survival
 
                 </span>
-                  <p className="text-muted-foreground leading-relaxed text-sm">Nearly 9 out of 10 seniors battle a "trio of burdens": the erosion of joints, the fading of kidneys, and the darkening of the mind.
+                  <p className="text-muted-foreground leading-relaxed text-sm">Nearly 9 out of 10 seniors battle a trio of burdens: the erosion of joints, the fading of kidneys, and the darkening of the mind.
 
                 </p>
                 </motion.div>
