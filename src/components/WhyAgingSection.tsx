@@ -142,7 +142,7 @@ export const WhyAgingSection = () => {
               <img alt="Horse, dog and cat walking together in autumn forest" className="w-full h-full object-cover object-center" src="/lovable-uploads/3bf01ec4-f0f1-4667-b0e6-862b4911391a.png" />
             </div>
             <div className="space-y-4">
-              <p className="text-muted-foreground leading-relaxed text-base text-justify">Companion animals are the heartbeat of the home, providing a profound emotional stability that science shows directly fosters our own healthy aging. They act as "biological anchors," lowering our stress and keeping us active, making their vitality essential to the well-being of the entire household. We focus on pet longevity as an act of devotion, seeking to redeem the years of unconditional love they give us. By extending their healthspan, we protect the bond of love that sustains us, ensuring our most faithful companions stay by our side for as long as possible.</p>
+              <p className="text-muted-foreground leading-relaxed text-base text-justify">Companion animals are the heartbeat of the home, providing a profound emotional stability that science shows directly fosters our own healthy aging. They act as anchors, lowering our stress and keeping us active, making their vitality essential to the well-being of the entire household. We focus on pet longevity as an act of devotion, seeking to redeem the years of unconditional love they give us. By extending their healthspan, we protect the bond of love that sustains us, ensuring our most faithful companions stay by our side for as long as possible.</p>
             </div>
           </motion.div>
         </div>
