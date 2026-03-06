@@ -76,7 +76,7 @@ export const WhyAgingSection = () => {
                 margin: "-50px"
               }}>
                   <span className="text-xl font-bold text-primary block mb-2">The Senior Majority (52%)</span>
-                  <p className="text-muted-foreground leading-relaxed text-sm">For the first time, over half of pet parents are now "caregivers" to senior companions, a 20% surge in just one decade.
+                  <p className="text-muted-foreground leading-relaxed text-sm">For the first time, over half of pet parents are now caregivers to senior companions, a 20% surge in just one decade.
 
                 </p>
                 </motion.div>
