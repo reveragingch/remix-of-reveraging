@@ -3,6 +3,7 @@ import { WhyAgingSection } from "@/components/WhyAgingSection";
 import { ApproachSection } from "@/components/ApproachSection";
 import { MissionStatement } from "@/components/MissionStatement";
 import { LocationSection } from "@/components/LocationSection";
+import { BlogCTA } from "@/components/BlogCTA";
 import { Footer } from "@/components/Footer";
 
 const About = () => {
@@ -13,6 +14,7 @@ const About = () => {
         <MissionStatement />
         <WhyAgingSection />
         <ApproachSection />
+        <BlogCTA />
         <LocationSection />
       </main>
       <Footer />
