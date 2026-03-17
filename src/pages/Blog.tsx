@@ -14,15 +14,6 @@ import parrasImg from "@/assets/parrasetal.jpg";
 
 const articles = [
   {
-    slug: "partial-reprogramming-ocampo-2016",
-    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
-    date: "13.11.2025",
-    category: "In Depth",
-    excerpt:
-      "The key conceptual leap behind partial reprogramming is that there is an intermediary state of interest before reaching full pluripotency. The \"reset without erasure\" idea is what opened the door to rejuvenation as a therapeutic direction for aging.",
-    inDepth: true,
-  },
-  {
     slug: "chemical-reprogramming-schoenfeldt-2025",
     title: "Chemical reprogramming for aging: towards an optimized cocktail (Schoenfeldt et al., 2025)",
     date: "14.02.2026",
@@ -82,6 +73,15 @@ const articles = [
     excerpt:
       "Good aging is less about the number of birthdays and more about daily function: how easily your pet moves, eats, plays, sleeps, and recovers. The most useful mindset is to watch for small, sustained shifts rather than one bad day.",
     thumbnail: petAgingSignsImg,
+  },
+  {
+    slug: "partial-reprogramming-ocampo-2016",
+    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
+    date: "13.11.2025",
+    category: "In Depth",
+    excerpt:
+      "The key conceptual leap behind partial reprogramming is that there is an intermediary state of interest before reaching full pluripotency. The \"reset without erasure\" idea is what opened the door to rejuvenation as a therapeutic direction for aging.",
+    inDepth: true,
   },
   {
     slug: "reversing-aging-isnt-magic-its-biology",
