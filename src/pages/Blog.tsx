@@ -16,11 +16,10 @@ const articles = [
   {
     slug: "partial-reprogramming-ocampo-2016",
     title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
-    date: "27.02.2026",
+    date: "13.11.2025",
     category: "In Depth",
     excerpt:
       "The key conceptual leap behind partial reprogramming is that there is an intermediary state of interest before reaching full pluripotency. The \"reset without erasure\" idea is what opened the door to rejuvenation as a therapeutic direction for aging.",
-    thumbnail: parrasImg,
     inDepth: true,
   },
   {
@@ -30,7 +29,6 @@ const articles = [
     category: "In Depth",
     excerpt:
       "This first description of chemical partial reprogramming opens a path towards future translational applications while avoiding the hurdles of gene therapy. For rever, this is the foundation: build around chemical reprogramming as a new class of anti-aging therapeutics.",
-    thumbnail: schoenImg,
     inDepth: true,
   },
   {
