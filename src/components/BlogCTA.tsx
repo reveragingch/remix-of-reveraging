@@ -14,6 +14,7 @@ export const BlogCTA = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true, margin: "-100px" }}
         >
+          <BookOpen size={28} className="text-primary mx-auto mb-4" />
           <p className="text-muted-foreground text-base leading-relaxed mb-5">
             We write about the science behind our work — from cellular reprogramming to companion animal aging. Dive into the research that drives us.
           </p>
