@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const BlogCTA = () => {
   return (
-    <section className="py-16 bg-background relative overflow-hidden">
+    <section className="pt-4 pb-16 bg-background relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-primary/3 via-transparent to-primary/3 pointer-events-none" />
       <div className="section-container relative z-10">
         <motion.div
