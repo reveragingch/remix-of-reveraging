@@ -393,7 +393,7 @@ const articles: Record<string, {
   },
   "partial-reprogramming-ocampo-2016": {
     date: "13.02.2026",
-    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
+    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al. 2016)",
     content: <>
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-foreground mb-4">
