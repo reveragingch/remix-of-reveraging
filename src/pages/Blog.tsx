@@ -76,7 +76,7 @@ const articles = [
   },
   {
     slug: "partial-reprogramming-ocampo-2016",
-    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al., 2016)",
+    title: "Partial reprogramming: the safety switch that made rejuvenation plausible (Ocampo et al. 2016)",
     date: "13.11.2025",
     category: "In Depth",
     excerpt:
