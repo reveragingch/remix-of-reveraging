@@ -439,6 +439,20 @@ const articles: Record<string, {
             Two insights from this work keep showing up across the reprogramming literature. First, partial reprogramming can improve aging phenotypes while preserving tissue identity if it is tightly controlled. Second, dosing and timing are not a detail, and finding the correct <GlossaryTerm {...glossary.regimen}>regimen</GlossaryTerm> can capture benefit without crossing into full dedifferentiation. This 2016 study relied on genetic control of OSKM expression, which is powerful for proof-of-concept but hard to translate broadly because delivery, reversibility, and long-term safety become central constraints. That is why the field has been motivated to find new ways to recreate the same reprogramming benefits, without the use of heavy genetic manipulations.
           </p>
         </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Paper link
+          </h2>
+          <a
+            href="https://www.cell.com/fulltext/S0092-8674(16)31664-6"
+            target="_blank"
+            rel="noreferrer"
+            className="text-primary underline underline-offset-4 transition-opacity hover:opacity-80"
+          >
+            Read the original Ocampo et al. 2016 paper
+          </a>
+        </section>
       </>
   },
   "chemical-reprogramming-schoenfeldt-2025": {
