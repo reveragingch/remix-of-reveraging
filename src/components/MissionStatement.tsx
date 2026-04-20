@@ -6,7 +6,75 @@ const missionItems = [
   title: "Who We Are",
   description:
   "We are a dedicated team of longevity scientists and entrepreneurs united by a bold vision: to fundamentally change how we age. Using cutting-edge cellular reprogramming, we're developing therapies that target the mechanistic drivers of aging in our beloved pets.",
-...
+  link: "/team"
+},
+{
+  title: "Our Commitment",
+  description:
+  "We are committed to creating a world where healthy years are extended far beyond what's currently possible. We believe every companion deserves to live a long, and vibrant life, free from the suffering of age-related chronic diseases."
+},
+{
+  title: "How We Operate",
+  description:
+  "Our team leverages deep expertise in cellular reprogramming to a high-efficiency testing platform to identify and develop realistic healthspan extending treatments."
+}];
+
+export const MissionStatement = () => {
+  return (
+    <section className="pt-32 pb-12 lg:pt-40 lg:pb-16 relative overflow-hidden">
+      {/* Subtle decorative elements */}
+      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 right-10 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
+
+      <div className="section-container relative z-10">
+        {/* Hero area - Logo left, Text right */}
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 mb-20">
+          {/* Logo on the left */}
+          <motion.div
+            className="flex-shrink-0"
+            initial={{
+              opacity: 0,
+              x: -50
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0
+            }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut"
+            }}
+            viewport={{
+              once: true
+            }}>
+
+            <img
+              alt="Rever"
+              className="h-32 lg:h-48 xl:h-56 drop-shadow-sm"
+              src="/lovable-uploads/83aa1376-c270-443e-a8d5-d49ce3f1ec2e.png" />
+
+          </motion.div>
+
+          {/* Text on the right */}
+          <motion.div
+            className="flex-1 text-center lg:text-left"
+            initial={{
+              opacity: 0,
+              x: 50
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0
+            }}
+            transition={{
+              duration: 0.8,
+              ease: "easeOut",
+              delay: 0.2
+            }}
+            viewport={{
+              once: true
+            }}>
+
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground mb-6 leading-tight font-sans">
               Reversing Aging Through Cellular Precision
             </h1>
