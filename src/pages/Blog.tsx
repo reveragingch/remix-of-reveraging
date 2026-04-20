@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SEO } from "@/components/SEO";
 import { ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Switch } from "@/components/ui/switch";
@@ -129,6 +130,18 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Blog — Aging, Reprogramming & Pet Longevity | Rever"
+        description="Articles on cellular reprogramming, aging biology, and companion animal healthspan from the Rever team."
+        canonical="/blog"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          name: "Rever Blog",
+          url: "https://reveraging.com/blog",
+          publisher: { "@type": "Organization", name: "Rever" },
+        }}
+      />
       <Header />
       <main className="pt-24 pb-16">
         <div className="section-container max-w-4xl mx-auto">
