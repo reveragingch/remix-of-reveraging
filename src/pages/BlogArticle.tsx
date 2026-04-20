@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SEO } from "@/components/SEO";
 import { ArrowLeft } from "lucide-react";
 import { GlossaryTerm } from "@/components/GlossaryTerm";
 import diseaseIncidenceChart from "@/assets/disease-incidence-chart.png";
@@ -81,6 +82,7 @@ const glossary = {
 const articles: Record<string, {
   title: string;
   date: string;
+  description?: string;
   heroImage?: string;
   content: React.ReactNode;
 }> = {
@@ -515,6 +517,7 @@ const BlogArticle = () => {
   const article = slug ? articles[slug] : null;
   if (!article) {
     return <div className="min-h-screen bg-background">
+        <SEO title="Article not found — Rever" description="The article you are looking for could not be found." canonical={`/blog/${slug ?? ""}`} />
         <Header />
         <main className="pt-24 pb-16">
           <div className="section-container max-w-4xl mx-auto text-center">
@@ -527,7 +530,29 @@ const BlogArticle = () => {
         <Footer />
       </div>;
   }
+  const description = `${article.title} — insights from Rever on cellular reprogramming, aging biology and pet healthspan.`;
+  const isoDate = (() => {
+    const m = article.date.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
+    return m ? `${m[3]}-${m[2]}-${m[1]}` : undefined;
+  })();
   return <div className="min-h-screen bg-background">
+      <SEO
+        title={`${article.title} — Rever`}
+        description={description}
+        canonical={`/blog/${slug}`}
+        type="article"
+        publishedTime={isoDate}
+        image={article.heroImage}
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          headline: article.title,
+          datePublished: isoDate,
+          author: { "@type": "Organization", name: "Rever" },
+          publisher: { "@type": "Organization", name: "Rever" },
+          mainEntityOfPage: `https://reveraging.com/blog/${slug}`,
+        }}
+      />
       <Header />
       <main className="pt-24 pb-16">
         <div className="section-container max-w-4xl mx-auto">
