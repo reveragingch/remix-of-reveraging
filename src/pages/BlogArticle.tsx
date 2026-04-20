@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SEO } from "@/components/SEO";
 import { ArrowLeft } from "lucide-react";
 import { GlossaryTerm } from "@/components/GlossaryTerm";
 import diseaseIncidenceChart from "@/assets/disease-incidence-chart.png";
@@ -81,6 +82,7 @@ const glossary = {
 const articles: Record<string, {
   title: string;
   date: string;
+  description?: string;
   heroImage?: string;
   content: React.ReactNode;
 }> = {
