@@ -5,7 +5,7 @@ const missionItems = [
 {
   title: "Who We Are",
   description:
-  "We are a dedicated team of longevity scientists and entrepreneurs united by a bold vision: to fundamentally change how we age. Using cutting-edge chemical reprogramming, we're developing therapies that target the mechanistic drivers of aging in our beloved pets.",
+  "We are a dedicated team of longevity scientists and entrepreneurs united by a bold vision: to fundamentally change how we age. Using cutting-edge cellular reprogramming, we're developing therapies that target the mechanistic drivers of aging in our beloved pets.",
   link: "/team"
 },
 {
@@ -76,10 +76,10 @@ export const MissionStatement = () => {
             }}>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground mb-6 leading-tight font-sans">
-              Reversing Aging Through Chemical Precision
+              Reversing Aging Through Cellular Precision
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl font-sans text-justify">
-              <b>rever</b> is a biotechnology company developing the next generation of rejuvenation therapies. By pioneering small-molecule chemical reprogramming, we are targeting the root causes of biological decline to radically extend the lifespan and healthspan of companions animals.
+              <b>rever</b> is a biotechnology company developing the next generation of rejuvenation therapies. By pioneering small-molecule cellular reprogramming, we are targeting the root causes of biological decline to radically extend the lifespan and healthspan of companions animals.
             </p>
           </motion.div>
         </div>
