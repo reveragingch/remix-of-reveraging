@@ -56,8 +56,8 @@ const advisors = [{
 }, {
   image: labokhaImg,
   name: "Aksana Labokha, PhD",
-  affiliation: "RegenEra Ventures",
-  bio: "General Partner at RegenEra Ventures and former CEO of Rejuveron. Expert in longevity biotech, company building, fundraising, translational strategy, and venture-backed aging therapeutics, with direct experience leading a longevity company through >$75M financing."
+  affiliation: "AdBio Partners",
+  bio: "General Partner at AdBio Partners and former CEO of Rejuveron. Expert in longevity biotech, company building, fundraising, translational strategy, and venture-backed aging therapeutics, with direct experience leading a longevity company through >$75M financing."
 }];
 interface PersonCardProps {
   image: string;
