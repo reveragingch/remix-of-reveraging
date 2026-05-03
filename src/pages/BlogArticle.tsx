@@ -77,6 +77,98 @@ const glossary = {
   concordance: {
     term: "Concordance",
     definition: "When functional outcomes and biomarkers move together, strengthening credibility."
+  },
+  qualityOfLife: {
+    term: "Quality of life",
+    definition: "Day-to-day wellbeing including comfort, appetite, play, sleep quality, and reduced pain or distress."
+  },
+  resilience: {
+    term: "Resilience",
+    definition: "The ability to handle stressors and return to baseline function, for example after illness, travel, or surgery."
+  },
+  recoveryAfterInjury: {
+    term: "Recovery after injury",
+    definition: "How quickly mobility and activity return after a strain, fall, or procedure; a practical real-world endpoint."
+  },
+  mobility: {
+    term: "Mobility",
+    definition: "Capacity to walk, climb, jump, and move comfortably; often the earliest visible sign of age-related decline."
+  },
+  veterinaryMedicine: {
+    term: "Veterinary medicine",
+    definition: "A real-world clinical study in client-owned animals, often run across multiple veterinary sites."
+  },
+  sustainedShift: {
+    term: "Sustained shift",
+    definition: "A change persisting days to weeks, suggesting a real trend rather than a single off day."
+  },
+  osteoarthritis: {
+    term: "Osteoarthritis",
+    definition: "Degenerative joint disease that reduces mobility and causes pain; common and often under-recognized in older pets."
+  },
+  overweightObese: {
+    term: "Overweight or obese",
+    definition: "Excess fat mass that increases strain on joints and can worsen metabolic and inflammatory stress."
+  },
+  cognitiveDysfunction: {
+    term: "Cognitive dysfunction",
+    definition: "Age-associated changes in learning, sleep-wake cycles, disorientation, and social behavior in older animals."
+  },
+  chronicKidneyDisease: {
+    term: "Chronic kidney disease (CKD)",
+    definition: "Progressive decline in kidney function, especially common in older cats; often detected via bloodwork and urine tests."
+  },
+  fullReprogramming: {
+    term: "Full reprogramming",
+    definition: "A process that pushes adult cells back to a stem-cell-like state, which can erase their original identity. The produced cell can become virtually any cell in the body."
+  },
+  partialReprogramming: {
+    term: "Partial reprogramming",
+    definition: "A controlled reset that aims to reverse age-associated features while preserving the cell's identity and function."
+  },
+  stemCellLikeState: {
+    term: "Stem-cell-like state",
+    definition: "A highly flexible cellular state with the ability to become many cell types, but with higher risk if induced in tissues."
+  },
+  geneDelivery: {
+    term: "Gene delivery",
+    definition: "Introducing genetic material into cells, often using viral vectors, to express specific genes or factors. A gene-therapy-style approach."
+  },
+  viralVector: {
+    term: "Viral vector",
+    definition: "A modified virus used to deliver genes into cells (a.k.a. gene delivery); effective but can raise control, safety, and scalability constraints."
+  },
+  safetyWindow: {
+    term: "Safety window",
+    definition: "The range of dosing where an intervention is effective without causing unacceptable side effects."
+  },
+  conservedBiology: {
+    term: "Conserved biology",
+    definition: "Core aging processes shared across mammals, meaning similar pathways and organ systems change with age in multiple species."
+  },
+  physiologicalSystems: {
+    term: "Physiological systems",
+    definition: "Organ-level functions such as brain, kidney, immune, and musculoskeletal systems that operate in comparable ways across mammals."
+  },
+  veterinaryDrug: {
+    term: "Veterinary drug",
+    definition: "A medicine developed for animals with defined active ingredients, dosing, safety testing, manufacturing controls, and evidence of benefit."
+  },
+  seniorDog: {
+    term: "Senior dog",
+    definition: "An older dog entering the stage of life where age-related decline becomes more common. The exact age depends on breed, size, and individual health."
+  },
+  patientPopulation: {
+    term: "Patient population",
+    definition: "The group of animals or people a therapy is designed for, for example senior dogs with age-related decline."
+  },
+  ownerObservedOutcomes: {
+    term: "Owner-observed outcomes",
+    definition: "Changes noticed by pet owners in daily life, such as mobility, appetite, energy, sleep, playfulness, confusion, or recovery."
+  },
+  veterinaryEndpoint: {
+    term: "Veterinary endpoint",
+    definition: "A measurable outcome used in veterinary studies to assess whether a treatment is safe or beneficial, such as mobility, quality of life, activity, bloodwork, or clinical assessment."
   }
 };
 const articles: Record<string, {
