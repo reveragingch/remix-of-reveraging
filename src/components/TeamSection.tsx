@@ -139,8 +139,8 @@ export const TeamSection = () => {
           <h3 className="font-semibold text-foreground text-2xl">Advisory Board</h3>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {advisors.map(advisor => <PersonCard key={advisor.name} {...advisor} isExpanded={expandedCards.has(advisor.name)} onToggle={() => handleToggle(advisor.name)} />)}
+        <div className="flex flex-wrap justify-center gap-6">
+          {advisors.map(advisor => <div key={advisor.name} className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(25%-1.125rem)]"><PersonCard {...advisor} isExpanded={expandedCards.has(advisor.name)} onToggle={() => handleToggle(advisor.name)} /></div>)}
         </div>
       </div>
     </section>;
