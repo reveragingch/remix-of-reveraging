@@ -17,7 +17,7 @@ const articles = [
   {
     slug: "why-dogs-may-be-the-first-real-patients-of-longevity-medicine",
     title: "Why dogs may be the first real patients of longevity medicine",
-    date: "28.02.2026",
+    date: "25.04.2026",
     category: "Pet Aging",
     excerpt:
       "Where will longevity medicine become real first? The answer may be dogs — patients with real age-related decline, real medical needs, and real families who want more healthy years with them.",

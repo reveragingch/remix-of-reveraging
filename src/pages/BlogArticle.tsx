@@ -600,7 +600,7 @@ const articles: Record<string, {
       </>
   },
   "why-dogs-may-be-the-first-real-patients-of-longevity-medicine": {
-    date: "28.02.2026",
+    date: "25.04.2026",
     title: "Why dogs may be the first real patients of longevity medicine",
     content: <>
         <section className="mb-12">
