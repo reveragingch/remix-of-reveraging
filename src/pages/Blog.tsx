@@ -15,6 +15,14 @@ import parrasImg from "@/assets/parrasetal.jpg";
 
 const articles = [
   {
+    slug: "why-dogs-may-be-the-first-real-patients-of-longevity-medicine",
+    title: "Why dogs may be the first real patients of longevity medicine",
+    date: "28.02.2026",
+    category: "Pet Aging",
+    excerpt:
+      "Where will longevity medicine become real first? The answer may be dogs — patients with real age-related decline, real medical needs, and real families who want more healthy years with them.",
+  },
+  {
     slug: "chemical-reprogramming-schoenfeldt-2025",
     title: "Chemical reprogramming for aging: towards an optimized cocktail (Schoenfeldt et al., 2025)",
     date: "14.02.2026",
