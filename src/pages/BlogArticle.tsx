@@ -599,6 +599,53 @@ const articles: Record<string, {
         </section>
       </>
   },
+  "why-dogs-may-be-the-first-real-patients-of-longevity-medicine": {
+    date: "28.02.2026",
+    title: "Why dogs may be the first real patients of longevity medicine",
+    content: <>
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Longevity medicine needs real patients
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Biology now gives us better tools to measure aging, understand why function declines, and test whether interventions can shift the body toward a healthier state. But there is still a practical question: where will longevity medicine become real first? The answer may be dogs. Not because dogs are a shortcut, and not because they are simply models for humans, but because they are <GlossaryTerm {...glossary.patientPopulation}>patients</GlossaryTerm> with real age-related decline, real medical needs, and real families who want more healthy years with them.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Dogs age in the same world we do
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Dogs age in homes, with real diets, real routines, real infections, real stress, real exercise patterns, and real medical care. Their biology is shaped by the same kind of stress and surprises that shape ours. That makes dog aging deeply relevant. Older dogs develop many problems that owners recognize immediately: slower walks, difficulty climbing stairs, loss of muscle, stiffness, sleep changes, <GlossaryTerm {...glossary.cognitiveDysfunction}>cognitive decline</GlossaryTerm>, reduced <GlossaryTerm {...glossary.resilience}>resilience</GlossaryTerm>, and more frequent disease. These are not abstract endpoints. They are visible changes in daily life.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Dogs give aging medicine a realistic biological timeline
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Humans age slowly, which makes longevity trials difficult. Waiting decades to know whether an intervention extends healthy life is not practical for early therapeutic development. In <GlossaryTerm {...glossary.seniorDog}>senior dogs</GlossaryTerm>, changes in function, resilience, metabolism, and age-related disease risk can be observed over years rather than decades. This does not make dog studies easy, but it makes them more actionable. For companies developing therapies that target aging itself, this matters. It allows the field to test whether a treatment can improve meaningful aging outcomes in a real-world <GlossaryTerm {...glossary.patientPopulation}>patient population</GlossaryTerm>.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Veterinary medicine moves faster than human anti-aging medicine
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            There is another reason dogs may be first: the veterinary path is clearer. In human medicine, aging itself is still difficult to use as a direct therapeutic indication. Human drug development usually needs to focus on a specific disease, such as sarcopenia, <GlossaryTerm {...glossary.osteoarthritis}>osteoarthritis</GlossaryTerm>, neurodegeneration, or metabolic disease. In <GlossaryTerm {...glossary.veterinaryMedicine}>veterinary medicine</GlossaryTerm>, the path for healthy-aging drugs in companion animals is becoming more concrete, especially as regulators, veterinarians, and owners recognize that age-related decline is a real medical problem. This does not mean lower standards. A real pet longevity <GlossaryTerm {...glossary.veterinaryDrug}>drug</GlossaryTerm> still needs defined active ingredients, safety data, dosing logic, manufacturing controls, and evidence that it improves meaningfully our beloved pet's life. But the route may be more direct as the patient need is visible, the timeline is shorter, and the <GlossaryTerm {...glossary.veterinaryEndpoint}>endpoint</GlossaryTerm> can be linked to <GlossaryTerm {...glossary.qualityOfLife}>quality of life</GlossaryTerm>. That is why companion animals may become the first place where longevity medicine becomes a real therapeutic product.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <p className="text-foreground/80 leading-relaxed">
+            If longevity medicine can help older dogs stay healthy and present for longer, it will not be an abstract scientific achievement. It will be medicine doing what it is supposed to do: giving patients more good time.
+          </p>
+        </section>
+      </>
+  },
 };
 const BlogArticle = () => {
   const {
