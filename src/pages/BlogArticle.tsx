@@ -77,6 +77,98 @@ const glossary = {
   concordance: {
     term: "Concordance",
     definition: "When functional outcomes and biomarkers move together, strengthening credibility."
+  },
+  qualityOfLife: {
+    term: "Quality of life",
+    definition: "Day-to-day wellbeing including comfort, appetite, play, sleep quality, and reduced pain or distress."
+  },
+  resilience: {
+    term: "Resilience",
+    definition: "The ability to handle stressors and return to baseline function, for example after illness, travel, or surgery."
+  },
+  recoveryAfterInjury: {
+    term: "Recovery after injury",
+    definition: "How quickly mobility and activity return after a strain, fall, or procedure; a practical real-world endpoint."
+  },
+  mobility: {
+    term: "Mobility",
+    definition: "Capacity to walk, climb, jump, and move comfortably; often the earliest visible sign of age-related decline."
+  },
+  veterinaryMedicine: {
+    term: "Veterinary medicine",
+    definition: "A real-world clinical study in client-owned animals, often run across multiple veterinary sites."
+  },
+  sustainedShift: {
+    term: "Sustained shift",
+    definition: "A change persisting days to weeks, suggesting a real trend rather than a single off day."
+  },
+  osteoarthritis: {
+    term: "Osteoarthritis",
+    definition: "Degenerative joint disease that reduces mobility and causes pain; common and often under-recognized in older pets."
+  },
+  overweightObese: {
+    term: "Overweight or obese",
+    definition: "Excess fat mass that increases strain on joints and can worsen metabolic and inflammatory stress."
+  },
+  cognitiveDysfunction: {
+    term: "Cognitive dysfunction",
+    definition: "Age-associated changes in learning, sleep-wake cycles, disorientation, and social behavior in older animals."
+  },
+  chronicKidneyDisease: {
+    term: "Chronic kidney disease (CKD)",
+    definition: "Progressive decline in kidney function, especially common in older cats; often detected via bloodwork and urine tests."
+  },
+  fullReprogramming: {
+    term: "Full reprogramming",
+    definition: "A process that pushes adult cells back to a stem-cell-like state, which can erase their original identity. The produced cell can become virtually any cell in the body."
+  },
+  partialReprogramming: {
+    term: "Partial reprogramming",
+    definition: "A controlled reset that aims to reverse age-associated features while preserving the cell's identity and function."
+  },
+  stemCellLikeState: {
+    term: "Stem-cell-like state",
+    definition: "A highly flexible cellular state with the ability to become many cell types, but with higher risk if induced in tissues."
+  },
+  geneDelivery: {
+    term: "Gene delivery",
+    definition: "Introducing genetic material into cells, often using viral vectors, to express specific genes or factors. A gene-therapy-style approach."
+  },
+  viralVector: {
+    term: "Viral vector",
+    definition: "A modified virus used to deliver genes into cells (a.k.a. gene delivery); effective but can raise control, safety, and scalability constraints."
+  },
+  safetyWindow: {
+    term: "Safety window",
+    definition: "The range of dosing where an intervention is effective without causing unacceptable side effects."
+  },
+  conservedBiology: {
+    term: "Conserved biology",
+    definition: "Core aging processes shared across mammals, meaning similar pathways and organ systems change with age in multiple species."
+  },
+  physiologicalSystems: {
+    term: "Physiological systems",
+    definition: "Organ-level functions such as brain, kidney, immune, and musculoskeletal systems that operate in comparable ways across mammals."
+  },
+  veterinaryDrug: {
+    term: "Veterinary drug",
+    definition: "A medicine developed for animals with defined active ingredients, dosing, safety testing, manufacturing controls, and evidence of benefit."
+  },
+  seniorDog: {
+    term: "Senior dog",
+    definition: "An older dog entering the stage of life where age-related decline becomes more common. The exact age depends on breed, size, and individual health."
+  },
+  patientPopulation: {
+    term: "Patient population",
+    definition: "The group of animals or people a therapy is designed for, for example senior dogs with age-related decline."
+  },
+  ownerObservedOutcomes: {
+    term: "Owner-observed outcomes",
+    definition: "Changes noticed by pet owners in daily life, such as mobility, appetite, energy, sleep, playfulness, confusion, or recovery."
+  },
+  veterinaryEndpoint: {
+    term: "Veterinary endpoint",
+    definition: "A measurable outcome used in veterinary studies to assess whether a treatment is safe or beneficial, such as mobility, quality of life, activity, bloodwork, or clinical assessment."
   }
 };
 const articles: Record<string, {
@@ -503,6 +595,53 @@ const articles: Record<string, {
           </h2>
           <p className="text-foreground/80 leading-relaxed">
             The conclusion is not that we are done, it is that we now have a new revolutionary approach on reprogramming for aging. This first description of chemical partial reprogramming opens a path towards future <GlossaryTerm {...glossary.translation}>translational</GlossaryTerm> applications while avoiding the hurdles of gene therapy. For rever, this is the foundation: build around <GlossaryTerm {...glossary.chemicalReprogramming}>chemical reprogramming</GlossaryTerm> as a new class of anti-aging therapeutics that targets aging at its core and can deliver never seen before <GlossaryTerm {...glossary.lifespan}>lifespan</GlossaryTerm> and <GlossaryTerm {...glossary.healthspan}>healthspan</GlossaryTerm> extensions.
+          </p>
+        </section>
+      </>
+  },
+  "why-dogs-may-be-the-first-real-patients-of-longevity-medicine": {
+    date: "28.02.2026",
+    title: "Why dogs may be the first real patients of longevity medicine",
+    content: <>
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Longevity medicine needs real patients
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Biology now gives us better tools to measure aging, understand why function declines, and test whether interventions can shift the body toward a healthier state. But there is still a practical question: where will longevity medicine become real first? The answer may be dogs. Not because dogs are a shortcut, and not because they are simply models for humans, but because they are <GlossaryTerm {...glossary.patientPopulation}>patients</GlossaryTerm> with real age-related decline, real medical needs, and real families who want more healthy years with them.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Dogs age in the same world we do
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Dogs age in homes, with real diets, real routines, real infections, real stress, real exercise patterns, and real medical care. Their biology is shaped by the same kind of stress and surprises that shape ours. That makes dog aging deeply relevant. Older dogs develop many problems that owners recognize immediately: slower walks, difficulty climbing stairs, loss of muscle, stiffness, sleep changes, <GlossaryTerm {...glossary.cognitiveDysfunction}>cognitive decline</GlossaryTerm>, reduced <GlossaryTerm {...glossary.resilience}>resilience</GlossaryTerm>, and more frequent disease. These are not abstract endpoints. They are visible changes in daily life.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Dogs give aging medicine a realistic biological timeline
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            Humans age slowly, which makes longevity trials difficult. Waiting decades to know whether an intervention extends healthy life is not practical for early therapeutic development. In <GlossaryTerm {...glossary.seniorDog}>senior dogs</GlossaryTerm>, changes in function, resilience, metabolism, and age-related disease risk can be observed over years rather than decades. This does not make dog studies easy, but it makes them more actionable. For companies developing therapies that target aging itself, this matters. It allows the field to test whether a treatment can improve meaningful aging outcomes in a real-world <GlossaryTerm {...glossary.patientPopulation}>patient population</GlossaryTerm>.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-foreground mb-4">
+            Veterinary medicine moves faster than human anti-aging medicine
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            There is another reason dogs may be first: the veterinary path is clearer. In human medicine, aging itself is still difficult to use as a direct therapeutic indication. Human drug development usually needs to focus on a specific disease, such as sarcopenia, <GlossaryTerm {...glossary.osteoarthritis}>osteoarthritis</GlossaryTerm>, neurodegeneration, or metabolic disease. In <GlossaryTerm {...glossary.veterinaryMedicine}>veterinary medicine</GlossaryTerm>, the path for healthy-aging drugs in companion animals is becoming more concrete, especially as regulators, veterinarians, and owners recognize that age-related decline is a real medical problem. This does not mean lower standards. A real pet longevity <GlossaryTerm {...glossary.veterinaryDrug}>drug</GlossaryTerm> still needs defined active ingredients, safety data, dosing logic, manufacturing controls, and evidence that it improves meaningfully our beloved pet's life. But the route may be more direct as the patient need is visible, the timeline is shorter, and the <GlossaryTerm {...glossary.veterinaryEndpoint}>endpoint</GlossaryTerm> can be linked to <GlossaryTerm {...glossary.qualityOfLife}>quality of life</GlossaryTerm>. That is why companion animals may become the first place where longevity medicine becomes a real therapeutic product.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <p className="text-foreground/80 leading-relaxed">
+            If longevity medicine can help older dogs stay healthy and present for longer, it will not be an abstract scientific achievement. It will be medicine doing what it is supposed to do: giving patients more good time.
           </p>
         </section>
       </>
