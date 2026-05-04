@@ -79,7 +79,7 @@ export const MissionStatement = () => {
               Reversing Aging Through Cellular Precision
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl font-sans text-justify">
-              <b>rever</b> is a biotechnology company developing the next generation of rejuvenation therapies. By pioneering small-molecule cellular reprogramming, we are targeting the root causes of biological decline to radically extend the lifespan and healthspan of companions animals.
+              <b>rever</b> is a biotechnology company developing the next generation of rejuvenation therapies. By pioneering small-molecule epigenetic reprogramming, we are targeting the root causes of biological decline to radically extend the lifespan and healthspan of companions animals.
             </p>
           </motion.div>
         </div>
