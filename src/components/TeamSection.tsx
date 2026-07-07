@@ -131,8 +131,14 @@ export const TeamSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
-          {teamMembers.map(member => <PersonCard key={member.name} {...member} isExpanded={expandedCards.has(member.name)} onToggle={() => handleToggle(member.name)} />)}
+        <div className="grid md:grid-cols-3 gap-6 mb-6">
+          {teamMembers.slice(0, 3).map(member => <PersonCard key={member.name} {...member} isExpanded={expandedCards.has(member.name)} onToggle={() => handleToggle(member.name)} />)}
+        </div>
+
+        <div className="flex justify-center mb-16">
+          <div className="w-full md:w-1/3">
+            <PersonCard {...teamMembers[3]} isExpanded={expandedCards.has(teamMembers[3].name)} onToggle={() => handleToggle(teamMembers[3].name)} />
+          </div>
         </div>
 
         <div className="text-center mb-10">
