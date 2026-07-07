@@ -4,8 +4,8 @@ import lucasImg from "@/assets/Lucas.jpg";
 import theoImg from "@/assets/Theo.jpg";
 import parrasImg from "@/assets/Parras.jpg";
 import snyderImg from "@/assets/Snyder.jpg";
+import kaeberleinImg from "@/assets/Kaeberlein.jpg.asset.json";
 import antebiImg from "@/assets/Antebi.jpg";
-import vilchezImg from "@/assets/Vilchez.jpg";
 import soumyaImg from "@/assets/Soumya.png";
 import labokhaImg from "@/assets/Labokha.jpg";
 const teamMembers = [{
