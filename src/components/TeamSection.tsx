@@ -59,11 +59,6 @@ const advisors = [{
   bio: "PhD in aging and neurodegeneration. Juvion Health Science advances next-generation therapeutics to prevent age-related neuromuscular diseases.",
   linkedin: "https://www.linkedin.com/in/soumya-banerjee83/",
   website: "https://juvionls.com/"
-}, {
-  image: labokhaImg,
-  name: "Aksana Labokha, PhD",
-  affiliation: "RegenEra Ventures",
-  bio: "General Partner at RegenEra Ventures and former CEO of Rejuveron. Expert in longevity biotech, company building, fundraising, translational strategy, and venture-backed aging therapeutics, with direct experience leading a longevity company through >$75M financing."
 }];
 interface PersonCardProps {
   image: string;
