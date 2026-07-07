@@ -30,22 +30,22 @@ const teamMembers = [{
 }];
 const advisors = [{
   image: snyderImg,
-  name: "Michael Snyder, PhD",
+  name: "Prof. Michael Snyder, PhD",
   affiliation: "Stanford University",
   bio: "Chair of Genetics & Director of Personalized Medicine. Leader in aging biomarkers, multi-omics, and personalized health with over 800 publications.",
   linkedin: "https://www.linkedin.com/in/mpsnyder1/"
 }, {
+  image: kaeberleinImg.url,
+  name: "Prof. Matt Kaeberlein, PhD",
+  affiliation: "University of Washington",
+  bio: "Co-director of the Dog Aging Project, the first and largest companion-dog aging study ever launched, 50,000+ enrolled dogs and 30M+ data points. Leads TRIAD, a landmark veterinary trial for drugs to extend lifespan and healthspan in companion dogs.",
+  linkedin: "https://www.linkedin.com/in/mattkaeberlein/"
+}, {
   image: antebiImg,
-  name: "Adam Antebi, PhD",
+  name: "Prof. Adam Antebi, PhD",
   affiliation: "Max Planck Institute",
   bio: "Director of the Max Planck Institute for Biology of Ageing. Pioneer in the molecular genetics of aging and longevity across species.",
   website: "https://www.mpg.de/365410/biology-of-ageing-antebi"
-}, {
-  image: vilchezImg,
-  name: "David Vilchez, PhD",
-  affiliation: "University of Cologne",
-  bio: "Professor at CECAD & Institute for Genetics. Leader in aging and proteostasis research, ERC & Marie Curie grantee.",
-  linkedin: "https://www.linkedin.com/in/david-vilchez-402a8b25/"
 }, {
   image: soumyaImg,
   name: "Soumya Banerjee, PhD",
