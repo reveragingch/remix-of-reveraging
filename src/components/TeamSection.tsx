@@ -27,6 +27,11 @@ const teamMembers = [{
   bio: "Alberto is the Founder & CEO of VivoArchitect, an aging preclinical CRO. He is a serial entrepreneur with extensive experience in in vivo reprogramming and drug discovery.",
   linkedin: "https://www.linkedin.com/in/alberto-parras-ph-d-a11940175/",
   website: "https://www.vivoarchitect.ch/"
+}, {
+  image: labokhaImg,
+  name: "Aksana Labokha, PhD",
+  role: "Executive Advisor",
+  bio: "Pharma veteran providing Rever with strategic guidance on pharma regulatory, strategy and business. Former CEO of Rejuveron and General Partner at RegenEra Ventures, with direct experience leading a longevity company through >$75M financing."
 }];
 const advisors = [{
   image: snyderImg,
@@ -53,11 +58,6 @@ const advisors = [{
   bio: "PhD in aging and neurodegeneration. Juvion Health Science advances next-generation therapeutics to prevent age-related neuromuscular diseases.",
   linkedin: "https://www.linkedin.com/in/soumya-banerjee83/",
   website: "https://juvionls.com/"
-}, {
-  image: labokhaImg,
-  name: "Aksana Labokha, PhD",
-  affiliation: "RegenEra Ventures",
-  bio: "General Partner at RegenEra Ventures and former CEO of Rejuveron. Expert in longevity biotech, company building, fundraising, translational strategy, and venture-backed aging therapeutics, with direct experience leading a longevity company through >$75M financing."
 }];
 interface PersonCardProps {
   image: string;
