@@ -27,6 +27,12 @@ const teamMembers = [{
   bio: "Alberto is the Founder & CEO of VivoArchitect, an aging preclinical CRO. He is a serial entrepreneur with extensive experience in in vivo reprogramming and drug discovery.",
   linkedin: "https://www.linkedin.com/in/alberto-parras-ph-d-a11940175/",
   website: "https://www.vivoarchitect.ch/"
+}, {
+  image: labokhaImg,
+  name: "Aksana Labokha, PhD",
+  role: "Executive Advisor",
+  bio: "Pharma veteran providing Rever with strategic guidance on pharma regulatory, strategy and business. Former CEO of Rejuveron and General Partner at RegenEra Ventures, with direct experience leading a longevity company through >$75M financing.",
+  linkedin: "https://www.linkedin.com/in/aksana-labokha-8a0b3a4/"
 }];
 const advisors = [{
   image: snyderImg,
