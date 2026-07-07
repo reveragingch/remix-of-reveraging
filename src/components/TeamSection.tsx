@@ -43,8 +43,7 @@ const advisors = [{
   image: kaeberleinImg.url,
   name: "Prof. Matt Kaeberlein, PhD",
   affiliation: "University of Washington",
-  bio: "Co-director of the Dog Aging Project, the first and largest companion-dog aging study ever launched, 50,000+ enrolled dogs and 30M+ data points. Leads TRIAD, a landmark veterinary trial for drugs to extend lifespan and healthspan in companion dogs.",
-  linkedin: "https://www.linkedin.com/in/mattkaeberlein/"
+  bio: "Co-director of the Dog Aging Project, the first and largest companion-dog aging study ever launched, 50,000+ enrolled dogs and 30M+ data points. Leads TRIAD, a landmark veterinary trial for drugs to extend lifespan and healthspan in companion dogs."
 }, {
   image: antebiImg,
   name: "Prof. Adam Antebi, PhD",
