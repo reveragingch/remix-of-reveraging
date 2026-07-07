@@ -4,7 +4,7 @@ import lucasImg from "@/assets/Lucas.jpg";
 import theoImg from "@/assets/Theo.jpg";
 import parrasImg from "@/assets/Parras.jpg";
 import snyderImg from "@/assets/Snyder.jpg";
-import kaeberleinImg from "@/assets/Kaeberlein.jpg.asset.json";
+import kaeberleinImg from "@/assets/Kaeberlein.jpg";
 import antebiImg from "@/assets/Antebi.jpg";
 import soumyaImg from "@/assets/Soumya.png";
 import labokhaImg from "@/assets/Labokha.jpg";
@@ -40,7 +40,7 @@ const advisors = [{
   bio: "Chair of Genetics & Director of Personalized Medicine. Leader in aging biomarkers, multi-omics, and personalized health with over 800 publications.",
   linkedin: "https://www.linkedin.com/in/mpsnyder1/"
 }, {
-  image: kaeberleinImg.url,
+  image: kaeberleinImg,
   name: "Prof. Matt Kaeberlein, PhD",
   affiliation: "University of Washington",
   bio: "Co-director of the Dog Aging Project, the first and largest companion-dog aging study ever launched, 50,000+ enrolled dogs and 30M+ data points. Leads TRIAD, a landmark veterinary trial for drugs to extend lifespan and healthspan in companion dogs."
